@@ -22,9 +22,16 @@ html{
     list-style-type: none; 
 }
 
-.nav-bar-list a{
+.nav-bar-list li a{
     text-decoration: none;
     color:black;
+    padding: 10px 15px;
+}
+
+.nav-bar-list li a:hover {
+    color: rgb(218, 199, 31);
+    font-weight: bold; 
+    
 }
 
 .carousel{
@@ -173,7 +180,7 @@ input{
     width: 50%;
     border-radius: 10px;
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #f9f9f9;
 }
 
